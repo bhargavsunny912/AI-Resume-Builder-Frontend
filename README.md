@@ -94,27 +94,22 @@ Download as PDF
 ## 📥 Installation & Setup
 
 ### 1. Clone the Repository
- git clone https://github.com/your-username/ai-resume-builder.git
-cd ai-resume-builder2.
-Install Dependencies
-Frontend
-cd client
-npm install
-Backend
-cd server
-npm install
-3. Setup Environment Variables
-
-Create a .env file in the backend:
-
-PORT=5000
-GEMINI_API_KEY=your_api_key_here
-4. Run the Project
-Start Backend
-npm start
-Start Frontend
-npm run dev
-
+- git clone https://github.com/your-username/ai-resume-builder.git
+- cd ai-resume-builder.
+- Install Dependencies
+## Frontend
+- cd client
+- npm install
+## Backend
+- cd server
+- npm install
+## Setup Environment Variables
+- Create a .env file in the backend:PORT=5000 - GEMINI_API_KEY=your_api_key_here
+## Run the Project
+- Start Backend
+- npm start
+- Start Frontend
+- npm run dev
 
 ## How to Download Resume 
 - Fill all required details
