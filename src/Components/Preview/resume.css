@@ -1,0 +1,217 @@
+.resume-container {
+  width:100%;
+  margin: auto;
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111;
+  line-height: 1.5;
+  transform: scale(1);
+  transform-origin: top left;
+  padding: 30px;
+}
+
+.project-item,
+.experience-item,
+.education-item{
+  page-break-inside:avoid;
+  break-inside:avoid;
+}
+
+/* Header */
+
+.resume-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.resume-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.resume-contact {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+.summary-text{
+  font-size: 12px;
+}
+
+/* Sections */
+
+.resume-section {
+  margin-top: 10px;
+  width: 100%;
+  text-align: justify;
+  page-break-before:auto;
+  page-break-after:auto;
+}
+
+.section-title {
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+}
+
+/* Skills */
+
+.skills-group {
+  margin-bottom: 6px;
+  font-size: 12px;
+}
+
+/* Experience */
+
+.experience-item {
+  margin-bottom: 15px;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.company-name {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.experience-summary {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+/* Projects */
+
+.project-item {
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.project-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom:5px;
+  page-break-inside:avoid;
+}
+
+.project-links a {
+  margin-right: 10px;
+}
+
+.project-links{
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+
+.techstack{
+  font-weight: 600;
+}
+
+.project-summary{
+  text-align: justify;
+}
+
+/* Education */
+
+.education-item {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.education-main{
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+}
+
+.education-date{
+  display: flex;
+  align-items: center;
+}
+
+.education-meta {
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: end;
+  width: 40%;
+}
+
+.export-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.export-btn {
+  background: #111;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.export-btn:hover {
+  background: #333;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+
+  html,body{
+    margin:0;
+    padding:0;
+    height:auto;
+    background:white;
+  }
+
+  .export-btn-container{
+    display:none !important;
+  }
+
+  *{
+    box-shadow:none !important;
+  }
+
+  .resume-container{
+    width:210mm;
+    margin:0 auto;
+    padding:15mm 18mm;
+    background:white;
+  }
+
+  .resume-section,
+  .experience-item,
+  .project-item,
+  .education-item{
+    page-break-inside:avoid;
+    break-inside:avoid;
+  }
+
+  a{
+    text-decoration:none;
+    color:black;
+  }
+
+}

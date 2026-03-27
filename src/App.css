@@ -1,0 +1,84 @@
+.custom-range {
+  appearance: none;
+  -webkit-appearance: none;
+  height: 6px;
+  border-radius: 6px;
+  background: linear-gradient(
+    to right,
+    var(--color) 0%,
+    var(--color) var(--progress),
+    #e5e7eb var(--progress),
+    #e5e7eb 100%
+  );
+  outline: none;
+}
+
+.custom-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 0px;
+  width: 0px;
+  border-radius: 50%;
+  background: var(--color);
+}
+
+
+.custom-range::-webkit-slider-runnable-track {
+  height: 10px;
+  background: linear-gradient(
+    to right,
+    var(--color) 0%,
+    var(--color) var(--progress),
+    #e5e7eb var(--progress),
+    #e5e7eb 100%
+  );
+}
+
+.builder::-webkit-scrollbar{
+  display: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+/* CKEditor writing area */
+
+.ck-editor__editable_inline {
+  min-height: 140px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Cleaner editor UI */
+
+.ck.ck-editor__main > .ck-editor__editable {
+  border: none;
+  box-shadow: none;
+  padding: 12px 16px;
+}
+
+.ck.ck-toolbar {
+  border: none;
+  border-bottom: 1px solid #e5e7eb;
+  background: #fafafa;
+}
+
+/* Resume preview list fix */
+
+.summary-text ul,.project-summary ul,.experience-summary ul {
+  list-style-type: disc;
+  margin-left: 8px;
+  padding-left: 8px;
+}
+
+.summary-text ol,.project-summary ol,.experience-summary ol {
+  list-style-type: decimal;
+  margin-left: 8px;
+  padding-left: 8px;
+}
+
+.summary-text li,.project-summary li,.experience-summary li {
+  margin-bottom: 4px;
+}
+
