@@ -66,14 +66,14 @@ This project eliminates that gap by combining **resume creation + AI enhancement
 ---
 
 ## 🧠 How It Works
-User Input → Select Experience Level → Fill Resume Details
-↓
-Click "AI Preview"
-↓
-Gemini AI Refines Resume Content
-↓
-Preview Enhanced Resume
-↓
+User Input → Select Experience Level → Fill Resume Details\
+↓\
+Click "AI Preview"\
+↓\
+Gemini AI Refines Resume Content\
+↓\
+Preview Enhanced Resume\
+↓\
 Download as PDF
 
 
@@ -94,8 +94,7 @@ Download as PDF
 ## 📥 Installation & Setup
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/ai-resume-builder.git
+ git clone https://github.com/your-username/ai-resume-builder.git
 cd ai-resume-builder2.
 Install Dependencies
 Frontend
@@ -117,4 +116,28 @@ Start Frontend
 npm run dev
 
 
-How to Download Resume Fill all required details Click AI Preview Review generated resume Click Download Resume will be downloaded as a PDF 🔥 Key Highlights ✅ All-in-one platform ✅ AI-based ATS optimization ✅ Level-based resume refinement ✅ Clean and responsive UI ✅ Instant PDF generation ✅ Rich text editing support 🚧 Future Enhancements 🔐 Authentication (Login/Signup) 🎨 Multiple Resume Templates 🧩 Template Selection Feature 📂 Drag & Drop Resume Upload 🤖 Improved AI Accuracy 📊 Resume Scoring System ☁️ Cloud Storage 📱 Better Mobile Responsiveness
+## How to Download Resume 
+- Fill all required details
+- Click AI Preview
+- Review generated resume
+- Click Download
+- Resume will be downloaded as a PDF
+
+## 🔥 Key Highlights 
+- ✅ All-in-one platform
+- ✅ AI-based ATS optimization
+- ✅ Level-based resume refinement
+- ✅ Clean and responsive UI
+- ✅ Instant PDF generation
+- ✅ Rich text editing support
+
+  
+## 🚧 Future Enhancements 
+- 🔐 Authentication (Login/Signup)
+- 🎨 Multiple Resume Templates
+- 🧩 Template Selection Feature
+- 📂 Drag & Drop Resume Upload
+- 🤖 Improved AI Accuracy
+- 📊 Resume Scoring System
+- ☁️ Cloud Storage
+- 📱 Better Mobile Responsiveness
