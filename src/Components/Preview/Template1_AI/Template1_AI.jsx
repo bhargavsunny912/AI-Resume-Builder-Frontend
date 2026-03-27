@@ -32,7 +32,7 @@ const Template1_AI = () => {
   async function handleRefineAI() {
     try{
         setLoading(true)
-        const res = await fetch("http://localhost:8000/refine-resume", {
+        const res = await fetch("https://ai-resume-builder-backend-19xd.onrender.com/refine-resume", {
         method: "POST",
         body: JSON.stringify({
             resumeData: resumeData,
